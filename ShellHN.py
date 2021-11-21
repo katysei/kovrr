@@ -172,7 +172,7 @@ def get_features(df):
     corpus = df["title"]
     vectorizer = CountVectorizer(min_df=4, max_df=0.1, max_features=1000, binary=True)
     X = vectorizer.fit_transform(corpus)
-    features = vectorizer.get_feature_names()
+    features = vectorizer.get_feature_names_out()
     df_f = pd.DataFrame(data=X.toarray(), columns=features)
     df_f["month"] = df["month"]
     df_f["year"] = df["year"]
@@ -289,7 +289,7 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("# of Argumnets is not 1, use top for top stories  corr for correlation nextmonth for prediction.")
         exit(-1)
-    if sys.argv[1] not in ["top", "corr"]:
+    if sys.argv[1] not in ["top", "corr","nextmonth"]:
         print("Use top for top stories  corr for correlation.")
         exit(-1)
     if sys.argv[1] == "top":
