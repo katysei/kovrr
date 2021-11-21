@@ -1,16 +1,15 @@
-# kovrr
+# kovrr ShellHN Exersize:
 
-## ShellHN Exersize:
- Prints 40 most popular hacker news</br>
- Find correlation between # of commnets and 8PM</br>
- Check the probability of a technology to appear in the next month news</br>.
+Prints 40 most popular hacker news</br>
+Find correlation between # of commnets and 8PM</br>
+Check the probability of a technology to appear in the next month news</br>.
  
 
 ## Installation:
 ```
-python3 -m venv venv </br>
-source venv/bin/activate </br>
-pip install -r requirements.txt </br>
+python3 -m venv venv 
+source venv/bin/activate 
+pip install -r requirements.txt
 ```
 
 ## Usage:
