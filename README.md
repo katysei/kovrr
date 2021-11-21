@@ -1,8 +1,8 @@
 # kovrr ShellHN Exersize:
 
-Prints 40 most popular hacker news</br>
-Find correlation between # of commnets and 8PM</br>
-Check the probability of a technology to appear in the next month news</br>.
+1. Prints 40 most popular hacker news</br>
+2. Find correlation between # of commnets and 8PM</br>
+3. Check the probability of a technology to appear in the next month news</br>.
  
 
 ## Installation:
@@ -24,7 +24,7 @@ python ShellHN.py top
 python ShellHN.py corr  
 python ShellHN.py nextmonth 
 ```
-# Test File
+## Test File
 
 See Test-ShellHN.ipynb
 
